@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "personkartotekSLN", "ConsoleApp1\personkartotekSLN.csproj", "{5A6389D7-CE9B-49DA-B7EF-944C06616539}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "personkartotekDataBase", "personkartotekDataBase\personkartotekDataBase.sqlproj", "{622BFE92-EC8D-4E0B-8FD9-6784EEE75C5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A6389D7-CE9B-49DA-B7EF-944C06616539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6389D7-CE9B-49DA-B7EF-944C06616539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6389D7-CE9B-49DA-B7EF-944C06616539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6389D7-CE9B-49DA-B7EF-944C06616539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622BFE92-EC8D-4E0B-8FD9-6784EEE75C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622BFE92-EC8D-4E0B-8FD9-6784EEE75C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622BFE92-EC8D-4E0B-8FD9-6784EEE75C5E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{622BFE92-EC8D-4E0B-8FD9-6784EEE75C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622BFE92-EC8D-4E0B-8FD9-6784EEE75C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622BFE92-EC8D-4E0B-8FD9-6784EEE75C5E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCC29823-4DE1-4A04-8276-22C16D09AF81}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿Her er User Stories tilføjet.
+
+
+
+User Story 1:
+- Jeg vil gerne tilføje en person
+
+User Story 2:
+- Jeg vil gerne finde en person/personer ved hjælp af fornavn og efternavn.
+
+User Story 3:
+- Person X har ændret efternavn pga. ægteskab og jeg vil gerne ændre dette i databasen.
+
+User Story 4:
+- Person X er ikke længere medlem af klubben og skal slettes fra databasen.
