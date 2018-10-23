@@ -23,3 +23,9 @@ UPDATE Person SET Fornavn = 'Karl', Mellemnavn = 'Henrik', Efternavn = 'Arnesen'
 
 /* Used in deletePersonDB - replace the last with (personID=@personID).. */
 DELETE FROM Person WHERE personID=32
+
+SELECT * FROM Adresse WHERE CONTAINS (vejnavn, 'Fin')
+
+SELECT * FROM Adresse WHERE vejnavn LIKE '%Fin%'
+
+SELECT * FROM NOTAT ORDER BY Notat

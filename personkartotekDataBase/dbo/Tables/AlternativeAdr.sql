@@ -8,7 +8,7 @@ CREATE TABLE AlternativeAdr (
     adresseID      BIGINT NOT NULL,
     personID       BIGINT NOT NULL,
     AAtype         NVARCHAR(50) NOT NULL,
-CONSTRAINT pk_AlternativeAdr PRIMARY KEY CLUSTERED (adresseID,personID),
+    CONSTRAINT pk_AlternativeAdr PRIMARY KEY CLUSTERED (adresseID,personID),
 CONSTRAINT fk_AlternativeAdr FOREIGN KEY (adresseID)
     REFERENCES Adresse (adresseID)
     ON DELETE CASCADE

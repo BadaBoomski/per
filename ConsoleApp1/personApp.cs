@@ -15,37 +15,38 @@ namespace personkartotekSLN
             // Below the CRUD-operations are shown. Press the + on the left to open.
             // Remember to comment the other CRUD's out when testing.
 
-            #region AddpersonDB
+            #region AddpersonDB (but first add postnrby and adresse)
             // Think scaffolding diagram - to add a person, we first need have a PostnrBy and a Adresse.
             // In this "case" we don't, so we start by creating them. Another solution would be to add some to the database and "pull" from there.
 
-            PostnrBy nyBy = new PostnrBy()
-            {
-                bynavn = "Aarhus C",
-                land = "Danmark",
-                postnr = "8000",
-                postnrbyID = 1
-            };
+            //PostnrBy nyBy = new PostnrBy()
+            //{
+            //    bynavn = "Viby J",
+            //    land = "Danmark",
+            //    postnr = "8260",
+            //    postnrbyID = 1
+            //};
+            //perutil.AddPostnrbyDB(ref nyBy);
 
-            Adresse nyAdresse1 = new Adresse()
-            {
-                adrTilknyttetPerson = null,
-                adresseID = 1,
-                adrTilknyttetPostnrBy = nyBy,
-                vejnavn = "Ebeltoftvej 32B"
-            };
+            //Adresse nyAdresse1 = new Adresse()
+            //{
+            //    adrTilknyttetPerson = null,
+            //    adresseID = 1,
+            //    adrTilknyttetPostnrBy = nyBy,
+            //    vejnavn = "Finlandsvej 500"
+            //};
+            //perutil.AddAdressDB(ref nyAdresse1);
 
-            Person per = new Person()
-            {
-                personID = 1,
-                Fornavn = "Maja",
-                Mellemnavn = "Lind",
-                Efternavn = "Thistrup",
-                Persontype = "Mor",
-                FolkeregisterAdresse = nyAdresse1
-            };
-
-            perutil.AddPersonDB(ref per);
+            //Person per = new Person()
+            //{
+            //    personID = 1,
+            //    Fornavn = "Maja",
+            //    Mellemnavn = "Lind",
+            //    Efternavn = "Thistrup",
+            //    Persontype = "Mor",
+            //    FolkeregisterAdresse = nyAdresse1
+            //};
+            //perutil.AddPersonDB(ref per);
 
             #endregion Remember to comment out the other regions to use/demonstrate this.
 
@@ -99,6 +100,29 @@ namespace personkartotekSLN
             //perutil.DeletePersonDB(ref perDeleteTest);
 
             #endregion Remember to comment out the other regions to use/demonstrate this.
+
+            #region UpdateAdresseDB
+
+            //Adresse adrUpdate = new Adresse()
+            //{
+            //    adresseID = 4,
+            //    vejnavn = "Opdateretvejnavn 13, st. th",
+            //};
+
+            //perutil.UpdateAdresseDB(ref adrUpdate);
+
+            #endregion
+
+            #region DeleteAdresseDB
+
+            //Adresse deleteAdresseTest = new Adresse()
+            //{
+            //    adresseID = 7,
+            //};
+
+            //perutil.DeleteAdresseDB(ref deleteAdresseTest);
+
+            #endregion
 
 
             return;
